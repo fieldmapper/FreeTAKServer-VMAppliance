@@ -12,14 +12,14 @@
 
 ## What to do?
 
-*   Download the latest `FTS-VMAppliance` image. 
+*   Download the latest `FTS-VMAppliance` image here - [http://bit.ly/ftsvmappliance](http://bit.ly/ftsvmappliance)
 *   Download the default certificates specially built for this image.
 *   Import and run the virtual machine image on your favorite VM emulator.
 *   Take note of the IP address listed on the console. (You may need to login and check `ifconfig` if the IP address shows localhost. This VM is configured on VirtualBox attached to a `Bridged Adapter`. You may need to run `dhclient enp0s3` or manually configure the IP address in `/etc/network/interfaces`.
 
 ## First Start Notes, Comments:
 
-*   Once appliance is booted up. Login to `fts` to change password. 
+*   Once appliance is booted up. Login to `fts` to change password.
 *   The user `fts` has `sudo` privileges.
 *   Depending on the VM emulator, there may be a delay on getting an IP address via DHCP. Resulting in an erroneous `Server IP` on the login screen. You can just run `dhclient (interfacename)` to get networking up and running.
 *   All FTS-related process runs under the the user `fts` and the whole FreeTAKServer folder is owned by the `fts` user and group.
