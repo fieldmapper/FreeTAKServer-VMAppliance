@@ -2,7 +2,7 @@
 
 **FreeTAKServer Virtual Machine Appliance**
 
-> This is a Debian GNU/Linux 10 FreeTAKServer (FTS) Virtual Machine Appliance. This VM appliance is geared towards end-users that would like to evaulate FTS ifcoin both TCP and SSL mode with minimal configuration from the end-user. Just import and run!
+> This is a Debian GNU/Linux 10 FreeTAKServer (FTS) Virtual Machine Appliance. This VM appliance is geared towards end-users that would like to evaluate both TCP and SSL mode with minimal configuration from the end-user. Just import and run!
 
 ## What's Inside?
 
