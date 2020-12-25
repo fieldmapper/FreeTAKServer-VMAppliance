@@ -12,7 +12,7 @@
 
 ## What to do?
 
-*   Download the latest `FTS-VMAppliance` image here - [http://bit.ly/ftsvmappliance](http://bit.ly/ftsvmappliance)
+*   Download the latest `FTS-VMAppliance` OVF image here - [http://bit.ly/ftsvmappliance](http://bit.ly/ftsvmappliance)
 *   Download the default certificates specially built for this image.
 *   Import and run the virtual machine image on your favorite VM emulator.
 *   Take note of the IP address listed on the console. (You may need to login and check `ifconfig` if the IP address shows localhost. This VM is configured on VirtualBox attached to a `Bridged Adapter`. You may need to run `dhclient enp0s3` or manually configure the IP address in `/etc/network/interfaces`.
