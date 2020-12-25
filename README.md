@@ -35,8 +35,8 @@
 ## Special thanks to...
 
 *   The wonderful team over at FreeTAKServer ([https://github.com/FreeTAKTeam](https://github.com/FreeTAKTeam))
-*   AFRL & TAK Product Center for creating and maintaining "The best Situational Awareness App that most have not heard about."
-*   @ATAK\_Release (civtak.org) for his "TAK Evangelism" and efforts over the past few years in getting ATAK released to the public, and the Google Play Store.
+*   AFRL & TAK Product Center [takmaps.com](takmaps.com) for creating and maintaining "The best Situational Awareness App that most have not heard about."
+*   @ATAK\_Release ([civtak.org](civtak.org)) for his "TAK Evangelism" and efforts over the past few years in getting ATAK released to the public, and the Google Play Store.
 *   ATAK Discord and Reddit Administrators and Moderators for keeping the peace in our little corner of the Internet.
 
 ## Issues, concerns...
