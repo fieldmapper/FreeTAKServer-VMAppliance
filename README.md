@@ -8,14 +8,14 @@
 
 *   Debian GNU/Linux 10 - netinst
 *   Python 3.7 w/ pip
-*   Pre-configured FreeTAKServer 1.3.0.6 RC6
+*   Pre-configured FreeTAKServer 1.3.0.6 RC 6 with SSL certificates set up ready to connect.
 
 ## What to do?
 
-*   Download the latest `FTS-VMAppliance` OVF image here - [http://bit.ly/ftsvmappliance](http://bit.ly/ftsvmappliance)
-*   Download the default certificates specially built for this image.
+*   Download the latest `FTS-VMAppliance` OVF image here - [http://bit.ly/ftsvmappliance](http://bit.ly/ftsvmappliance) (Google Drive Link)
+*   Download the default certificates specially built for this image, that's on the Google Drive link too.
 *   Import and run the virtual machine image on your favorite VM emulator.
-*   Take note of the IP address listed on the console. (You may need to login and check `ifconfig` if the IP address shows localhost. This VM is configured on VirtualBox attached to a `Bridged Adapter`. You may need to run `dhclient enp0s3` or manually configure the IP address in `/etc/network/interfaces`.
+*   Take note of the IP address listed on the console. (You may need to login and check `ifconfig` if the IP address shows localhost. This VM is configured on VirtualBox attached to a `Bridged Adapter`. You may need to run `dhclient enp0s3` (or whatever interface your VM brings up) or manually configure the IP address in `/etc/network/interfaces`.
 *   Make sure to change the password for both `root` and `fts` users.
 *   Fire up your TAK EUD, load the certificate ZIP file included in the link above. And change the address to your IP address. And you _should_ be able to connect to FTS-VMAppliance.
 
@@ -28,7 +28,7 @@
 
 ## Certificate Creation:
 
-*   Server and Client Certificates were created by @lennacethemenace - [https://github.com/lennisthemenace/ATAK-Certs](https://github.com/lennisthemenace/ATAK-Certs)
+*   Server and Client Certificates were created by ATAK-certs (SSL Certificates Generator) Python script by @lennacethemenace - [https://github.com/lennisthemenace/ATAK-Certs](https://github.com/lennisthemenace/ATAK-Certs)
 *   `atakofthecerts.py` is already pre-loaded on `/home/fts/certs` and is sym-linked to the `/usr/local/lib/python3.x/dist-packages/FreeTAKServer/Certs` folder.
 *   To create a new set of certificates please refer to the [https://github.com/lennisthemenace/ATAK-Certs](https://github.com/lennisthemenace/ATAK-Certs) documentation.
 
@@ -42,3 +42,9 @@
 ## Issues, concerns...
 
 *   I've setup FTS to run as an unprivileged user. So this may cause some permission problems. Simply changing the owner to `fts` the whole FreeTAKServer directory with `755` permissions seems to have solved the problem. Mainly with the Data Packages and ExCheck.
+
+## TODO's:
+
+*   Setup a first-start shell script for end-users to generate their FTS profile.
+*   `ncurses` driven configurator for FTS and SSL generation.
+*   In the future _maybe_ a shell script that auto-installs FTS with all the configurations modified depending on installation.\*\*
