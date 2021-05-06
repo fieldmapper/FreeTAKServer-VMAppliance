@@ -49,8 +49,6 @@
 *   `ncurses` driven configurator for FTS and SSL generation.
 *   In the future _maybe_ a shell script that auto-installs FTS with all the configurations modified depending on installation.\*\*
 
-## Buy Me A Coffee?:
+## Like my work? Buy Me A Coffee!:
 
-.. image:: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
-    :target: https://www.buymeacoffee.com/fieldmapper
-    :alt: Like my work?: Buy me a coffee!
+https://www.buymeacoffee.com/fieldmapper
